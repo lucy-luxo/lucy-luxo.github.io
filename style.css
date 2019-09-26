@@ -1,0 +1,50 @@
+#header{
+    font-size: 18px;
+    color: orange;
+    font-weight: bold;
+}
+.footer{
+    font-size: 18px;
+    color: orange;
+    font-weight: bold;
+}
+.footer-list{
+    font-size: 18px;
+    color: rgb(255, 51, 0);
+    font-weight: 500;
+}
+.navigation{
+    font-size: 15px;
+    color: rebeccapurple;
+    font-weight: 700;
+}
+.marvel{
+    font-size: 24px;
+    color: red;
+    font-weight: bolder;
+}
+.dc{
+    font-size: 24px;
+    color: blue;
+    font-weight: bolder;
+}
+.marvel-news {
+    font-size: 18px;
+    color: rgb(112, 6, 6);
+}
+.dc-news{
+    font-size: 18px;
+    color: rgb(43, 6, 112);
+}
+.news_img{
+    height: 200px;
+}
+table .poster {
+    height: 100px ;
+}
+    .dates{
+        font-size: 15px;
+        color: purple;
+       text-align: center;
+        font-weight: bold;
+    }
