@@ -5,113 +5,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Фильмы и сериалы онлайн</title>
+    <title>CSS fonts</title>
+    <!-- <style>
+        /*comments*/
+        nav{
+            font-size: 50px;
+            color: aqua;
+            font-weight: bold;
+        }
+    </style> -->
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Actor&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
     <header id="header">
-        <h1>Кинолюб</h1>
+        <h1 style="color:rgb(124, 59, 184); ">To do list</h1>
     </header>
-
     <main>
-
-        <nav class="navigation">
-            Навигация сайта
-            <a href="">Фильмы</a>
-            <a href="">Сериалы</a>
-            <a href="">Подборки</a>
-            <a href="">Новинки</a>
+        <nav class="nav">
+            Navigation
         </nav>
 
-        <section class="news">
-            <a href="">Новости</a>
-            <div>
-                <h3 class="marvel">Marvel Universe</h3>
-                <article class="marvel-news">
-                        В "Финале", большую часть экранного времени, 
-                        Тор все время был в перчатках. <br>
-                        Это было сделано для того, чтобы скрыть швы силиконового костюма,
-                         который носил Крис Хемсворт для придания образа "Толстого Тора".
-                </article>       
-                <img src="thor.jpg" alt="Fat Thor" class="news_img">
-            </div>
-
-            <div>
-                <h3 class="dc">DC Universe</h3>
-                <article class="dc-news">
-                        Интересный факт: для возведения 10-ти ярусной 
-                    пирамиды Джокера  в фильме "Темный рыцарь",<br>
-                     потребовалось бы 16 человек, 27 часов работы и 
-                     468 тысяч денежных пачек. 
-                </article>
-            </div>
-        </section>
-
-        <section class="video">
-            <div>
-                <iframe src="https://youtu.be/jGfiPs9zuhE" frameborder="0">Джокер</iframe>
-             </div>   
-             <div>
-                <iframe src="https://youtu.be/RxLmsi98DB4" frameborder="0">Оно 2</iframe>
-            </div>
-            <div>
-                <iframe src="https://youtu.be/mwS62ckbZUY" frameborder="0">Покемон. Детектив Пикачу</iframe>
-            </div>
-        </section>
-
-        <section class="dates">
-                <table border="1">
-                        <caption>Даты выхода фильмов</caption>
-                        <thead>
-                            <tr>
-                                <th><h5>Фильм</h5></th>
-                                <th><h5>Дата</h5></th>
-                                <th><h5>Постер</h5></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><a href="https://www.kinopoisk.ru/film/dzhoker-2019-1048334/" target="_blank">Джокер</a></td>
-                                <td><p>3 октября 2019 г.</p></td>
-                                <td><img class= "poster" src="https://st.kp.yandex.net/images/film_iphone/iphone360_1048334.jpg" alt="Джокер"></td>
-                            </tr>
-                            <tr>
-                                <td><a href="https://www.kinopoisk.ru/film/ono-2-2019-686898/s" target="_blank">Оно 2</a></td>
-                                <td><p> 5 сентября 2019 г.</p></td>
-                                <td><img class= "poster" src="https://vignette.wikia.nocookie.net/warnerbros/images/8/82/IT2.jpg/revision/latest?cb=20190425102129&path-prefix=ru" alt="ОНО2"></td>
-                            </tr>
-                            <tr>
-                                <td><a href="https://www.kinopoisk.ru/film/994864/" target="_blank">Покемон. Детектив Пикачу</a></td>
-                                <td><p>3 мая 2019 г. </p></td>
-                                <td><img class= "poster" src="https://st.kp.yandex.net/images/film_iphone/iphone360_994864.jpg" alt="Покемон"> </td>
-                    
-                            </tr>
-                        </tbody>
-                    </table>
-
-        </section>
-        <aside>
+         <aside class="sidebar">
             Sidebar
         </aside>
 
+        <form id="table-box">
+            <p><h1 class="plan">Week Plan</h1></p>
+                <div class="table">
+                       <div class="table-week">
+                          <div class="table-text">Monday</div>
+                          <div  class="table-text">Tuesday</div>
+                          <div  class="table-text">Wednesday</div>
+                          <div  class="table-text">Thursday</div>
+                          <div  class="table-text">Friday</div>
+                       </div>
+                      <div class="table-row">
+                            <div class="table-text">
+                                <ul class="todo-list">
+                                <li class="monday-list">attend classes</li>
+                                <li class="monday-list" id="homework">homework</li>
+                            </ul>
+                            </div>
+                          <div class="table-text">
+                                <ul class="todo-list">
+                                        <li class="tuesday-list">stretching</li>
+                                        <li class="tuesday-list">photoshoot</li>
+                                </ul>
+                          </div>
+                          <div class="table-text">
+                                <ul class="todo-list">
+                                        <li class="wednesday-list">coffee with friends</li>
+                                        <li class="wednesday-list">yoga</li>
+                                </ul>
+                          </div>
+                      </div>
+                    
+                          <div class="table-text"> 
+                              <ul class="todo-list">
+                                <li class="thursday-list">attend classes</li>
+                                <li class="thursday-list">work out or yoga</li>
+                             </ul>
+                        </div>
+                          <div class="table-text">
+                                <ul class="todo-list">
+                                        <li class="friday-list">shopping</li>
+                                        <li class="friday-list">weekly planning</li>
+                                </ul>
+                          </div>
+                     
+                          <div class="table-row">
+                                <div class="table-week">
+                                        <div class="table-text">Saturday</div>
+                                        <div  class="table-text">Sunday</div>
+                          </div>
+                          <div class="table-text">
+                                <ul class="todo-list">
+                                        <li class="saturday-list">morning coffee and cookies</li>
+                                        <li class="saturday-list">ask friends about plans</li>
+                                        <li class="saturday-list">attend party</li>
+                                </ul>
+                          </div>
+                          <div class="table-text">
+                                <ul class="todo-list">
+                                        <li class="sunday-list" id="homework">homework</li>
+                                        <li class="sunday-list">movie night</li>
+                                </ul>
+                          </div>
+                      
+          
+                </div>
+            </form>
+    
     </main>
-    <footer class="footer">
-        <span>Контакты</span>
-        <ul class="footer-list"> 
-            <li>
-                <p>Email</p>
-                <a href="mailto:example@gmail.com" class="mail">example@gmail.com</a>
-            </li>
-            <li>
-                <p>Телефон</p>
-                <a href="tel:+0399282288" class="tel">+0399282288</a>
-            </li>
-            <li>
-                <a href="#header" class="link-to-header">Наверх</a>
-            </li>
-        </ul>
+    <footer>
+    
     </footer>
 </body>
 
