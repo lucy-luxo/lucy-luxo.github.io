@@ -31,6 +31,7 @@
     font-family: "Notable", "Actor", "Arial", "Helvetica", "sans-serif";
     color: green;
     font-size: 18px;
+    text-align: center;
 }
 
 .nav{
@@ -98,7 +99,6 @@ div.table {
 
   div.table-week {
     display: table-header-group;
-    width: auto;
     background-color: palevioletred;
     font-family: "Notable", "Lato", "Roboto, sans-serif";
   }
@@ -114,8 +114,8 @@ div.table {
   .todo-list{
      text-align: left;
      background-color: mediumaquamarine;
-     height: auto;
      list-style: none;
+     
   }
   .todo-list li:before {
     content: '✓';
