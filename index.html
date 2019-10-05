@@ -5,106 +5,207 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CSS fonts</title>
-    <!-- <style>
-        /*comments*/
-        nav{
-            font-size: 50px;
-            color: aqua;
-            font-weight: bold;
-        }
-    </style> -->
+    <title>Blog</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Actor&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display:400,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Notable&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/316485847e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
     <header id="header">
-        <h1 style="color:rgb(124, 59, 184); ">To do list</h1>
+        <h1 class="hello">Hello, sweety...</h1>
     </header>
-    <main>
-        <nav class="nav">
-            Navigation
-        </nav>
 
-         <aside class="sidebar">
-            Sidebar
-        </aside>
-
-        <form id="table-box">
-            <p><h1 class="plan">Week Plan</h1></p>
-                <div class="table">
-                       <div class="table-week">
-                          <div class="table-text">Monday</div>
-                          <div  class="table-text">Tuesday</div>
-                          <div  class="table-text">Wednesday</div>
-                          <div  class="table-text">Thursday</div>
-                          <div  class="table-text">Friday</div>
-                       </div>
-                      <div class="table-row">
-                            <div class="table-text">
-                                <ul class="todo-list">
-                                <li class="monday-list">attend classes</li>
-                                <li class="monday-list" id="homework">homework</li>
-                            </ul>
-                            </div>
-                          <div class="table-text">
-                                <ul class="todo-list">
-                                        <li class="tuesday-list">stretching</li>
-                                        <li class="tuesday-list">photoshoot</li>
-                                </ul>
-                          </div>
-                          <div class="table-text">
-                                <ul class="todo-list">
-                                        <li class="wednesday-list">coffee with friends</li>
-                                        <li class="wednesday-list">yoga</li>
-                                </ul>
-                          </div>
-                      </div>
-                    
-                          <div class="table-text"> 
-                              <ul class="todo-list">
-                                <li class="thursday-list">attend classes</li>
-                                <li class="thursday-list">work out or yoga</li>
-                             </ul>
-                        </div>
-                          <div class="table-text">
-                                <ul class="todo-list">
-                                        <li class="friday-list">shopping</li>
-                                        <li class="friday-list">weekly planning</li>
-                                </ul>
-                          </div>
-                     
-                          
-                        <div class="table-week">
-                            <div class="table-text">Saturday</div>
-                             <div  class="table-text">Sunday</div>
-                         </div>>
-                          <div class="table-row"> 
-                              <div class="table-text">
-                                <ul class="todo-list">
-                                        <li class="saturday-list">morning coffee and cookies</li>
-                                        <li class="saturday-list">ask friends about plans</li>
-                                        <li class="saturday-list">attend party</li>
-                                </ul>
-                          </div>
-                          <div class="table-text">
-                                <ul class="todo-list">
-                                        <li class="sunday-list" id="homework">homework</li>
-                                        <li class="sunday-list">movie night</li>
-                                </ul>
-                          </div>
-                        </div>
-                         
-                      
-          
+    <nav>
+        <div class="menu">
+            <a href="#">Main</a>
+            <a href="#">Blog</a>
+            <a href="#">About</a>
+            <a href="#footer">Contacts</a>
+        </div>
+        <div class="account-block">
+            <form action="index.php" method="GET" class="account-form">
+                <div class="account-email">
+                    <p class="account-name">Email</p>
+                    <input type="email" name="id" class="email" />
+                </div>
+                <div class="account-password">
+                    <p class="account-name-password">Password</p>
+                    <input type="password" name="password" class="password" />
+                    <input type="submit" value="submit" class="submit" />
                 </div>
             </form>
-    
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="block">
+            <div class="content">
+                <img src="https://images.pexels.com/photos/1020315/pexels-photo-1020315.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    alt="smoke" class="img">
+                <span class="article">
+                    <h1 class="article-header">Introduction</h1>
+                    <article class="text">Happiness is subjective in many ways. You have the option to influence and
+                        control
+                        your attitude, and you can choose how you view the obstacles in your life. Are they a
+                        hinderance, or a blessing in disguise? Are you going to learn from the obstacle you were faced
+                        with, or are you going to dwell on it? Many times, that decision is up to you to make. Just as
+                        much as outlook influences our daily levels of general happiness, though, so does the way we
+                        live our average life. The physical and mental aspects of any person's being have to be
+                        harmoniously balanced in order for any true "peace." One does not matter more than the other.
+                        That being said, it is sometimes easier to take care of the physical aspect than it is the
+                        mental one. Our physical surroundings and conduct is what affects our mental health the most--
+                        they both rely on one another.
+                        It's also important to note that no person is alike, and that subsequently neither is any path.
+                        What makes someone else happy may not make you happy (and vice versa). Someone may achieve
+                        something faster than you did, but that does not essentially mean that they worked harder for it
+                        or that you didn't deserve what you thought would make you happy. The universe has a way of
+                        planning things out for you-- often times, the missed opportunity is just an opening door
+                        towards a better one.
+                    </article>
+                </span>
+            </div>
+            <div class="content">
+                <img src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    alt="rose" class="img2">
+                <span class="article">
+                    <h1 class="article-header">Question</h1>
+                    <article class="text">"Do I live in the present moment?"
+
+                        In a way, we are not taught to accept our thoughts but to fight against them. The best way to
+                        accept thoughts is through surrender. When you give up and accept what is happening to you in
+                        the present moment, it is then that great changes begin to occur in your life, however, if you
+                        resist, you will be in a constant loop of emptiness in which you will unconsciously feel
+                        yourself a and again.
+
+                        When we continually think about the past, without knowing it, we dive into a sea of ​​worries
+                        and constantly relive those situations in our mind in a random way, that is why our thoughts
+                        travel from here to there through our mind without a fixed course, generating In your body the
+                        feeling of discomfort. However, when we constantly think about the future, we begin to notice
+                        anxiety and some stress due to the simple fact of not being able to control what will happen.
+                        Now, what happens if we think about the present? Although perhaps the most appropriate question
+                        is what if instead of thinking about the present moment, we simply live it? And you will ask
+                        yourself and how do you live in the present moment while still thinking? Well, through the
+                        sensations. Feel free to feel what you are feeling, pay attention to those sensations that your
+                        body is reproducing at this moment, what do you feel? Keeping our mind in the present helps us
+                        feel free, since we are consciously accepting what is happening to us at this time.
+                    </article>
+                </span>
+            </div>
+            <div class="content">
+                <img src="https://image.freepik.com/free-photo/_53876-88891.jpg" alt="green" class="img3" />
+                <span class="article">
+                    <h1 class="article-header">Conclusion</h1>
+                    <article class="text"> <i>Pieces of happiness:</i>
+                        <ul class="happy">
+                            <li class="list">your favorite holiday</li>
+                            <li class="list">selflove</li>
+                            <li class="list">decluttering, saving only things you love</li>
+                            <li class="list"> people achieving their dreams</li>
+                            <li class="list"> endorphins after exercising</li>
+                            <li class="list">setting boundaries for yourself, and following them</li>
+                            <li class="list"> realizing you don’t need mind altering substances to have fun</li>
+                            <li class="list"> feeling at peace, not sad, not happy, just calm</li>
+                            <li class="list">a sunbeam coming through a cloudy sky</li>
+                            <li class="list">finding a strange but amazing thing in a antique shop</li>
+                            <li class="list">that childhood friend who are going to be beside you all your life</li>
+                            <li class="list">the first snow</li>
+                            <li class="list">first day of spring</li>
+                            <li class="list"> your favorite airport</li>
+                            <li class="list">the fresh air in the forest</li>
+                            <li class="list"> your gut feeling saving you from something horrible</li>
+                            <li class="list">camping with friends</li>
+                            <li class="list">the law of attraction</li>
+                        </ul>
+                    </article>
+                </span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div id="container">
+                <div class="square">
+                    <div class="quote-block">
+                        <span class="quote-text">Love is that condition in which the happiness of another person is
+                            essential to your own.</span>
+                    </div>
+                    <div class="sircle">
+                        <!-- sircle -->
+                    </div>
+                </div>
+
+
+                <div class="square2">
+                    <div class="quote-block">
+                        <span class="quote-text">Happiness is when what you think, what you say, and what you do are in
+                            harmony.</span>
+                    </div>
+                    <div class="sircle2">
+                        <!-- sircle2 -->
+                    </div>
+                </div>
+
+
+
+                <div class="square3">
+                    <div class="quote-block">
+                        <span class="quote-text">Happiness is not something ready made. It comes from your own
+                            actions.</span>
+                    </div>
+                    <div class="sircle3">
+                        <!-- sircle3 -->
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="gallery">
+                <h3 class="gallery-header">Gallery</h3>
+                <img class="gallery-img-one" src="./gallery/img3.jpg" alt="queen" />
+                <img class="gallery-img-two" src="./gallery/img2.jpg" alt="window" />
+                <img class="gallery-img-three" src="./gallery/img1.jpg" alt="sky" />
+            </div>
+
+        </div>
+
+
+
+
+        </div>
+
     </main>
+
+    <aside class="sidebar">
+        <div class="diamonds">
+            <!-- <div class="diamond-img"></div> -->
+
+        </div>
+    </aside>
+
     <footer>
-    
+        <h4 class="footer-name">Contacts</h4>
+        <ul class="contacts-list-block" id="footer">
+            <li class="contacts-list">
+                <i class="fas fa-envelope"></i>
+                Send Mail:
+                <a href="mailto:example@gmail.com" class="mail">lucy@mail.com</a>
+            </li>
+            <li class="contacts-list">
+                <i class="fas fa-phone"></i>
+                Phone:
+                <a href="tel:+0399282288" class="tel">+0399282288</a>
+            </li>
+
+        </ul>
+        <a href="#header" class="link-to-header">Go to top</a>
+        <div class="copyright">&copy Lucy</div>
     </footer>
+
 </body>
 
 </html>
