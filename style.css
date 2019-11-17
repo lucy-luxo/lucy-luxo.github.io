@@ -717,7 +717,16 @@ a.mail:hover {
   height: 60vh;
   width: 68vw;
 }
-
+.img-rectangle {
+  position: absolute;
+  margin-top: 51.4vh;
+  margin-left: 19vw;
+  width: 24.5vw;
+  height: 8.5vh;
+  opacity: 0.5;
+  box-shadow: 0px 1px 1px 0 black;
+  background-color: black;
+}
 .img-rectangle-text {
   margin: -0.5vh 0 0 2vw;
   align-content: center;
