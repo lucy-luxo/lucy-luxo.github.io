@@ -717,15 +717,7 @@ a.mail:hover {
   height: 60vh;
   width: 68vw;
 }
-.img-rectangle-text {
-  margin: -0.5vh 0 0 2vw;
-  align-content: center;
-  font-family: Arial;
-  font-size: 16px;
-  line-height: 4.44;
-  letter-spacing: -0.16px;
-  color: #ffffff;
-}
+
 .img-rectangle-text {
   margin: -0.5vh 0 0 2vw;
   align-content: center;
