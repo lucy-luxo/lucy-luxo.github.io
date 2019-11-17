@@ -1158,7 +1158,7 @@ div.aside-blog {
 i.hide1 {
   font-style: normal;
 }
-i.hide2 {
+i.hide3 {
   font-style: normal;
 }
 .news-line {
@@ -1256,6 +1256,9 @@ a.footer-link:hover {
   }
 }
 @media (min-width: 1420px) {
+  .hide1{
+    display: inline;
+  }
   .img-rectangle {
     margin-left: 0;
   }
